@@ -18,7 +18,7 @@ export default class Facebook extends Component {
         userID: response.userID,
         name: response.name,
         email: response.email,
-        picture: response.picture.data.url,
+        // picture: response.picture.data.url,
       })
     }
     componentClicked = () => console.log('clicked')
